@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elkaartjes · binnenkort</title>
+<meta name="description" content="Elkaartjes – verbondenheid na verlies. Een gesprekskaartspel van Anna De Vos. Binnenkort meer.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#2C2C2A; --text:#D3D1C7; --muted:#888780; --line:#5F5E5A; --o:#EF9F27; --b:#378ADD; --p:#D4537E; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    background:var(--bg); color:var(--text);
+    font-family:'Poppins', system-ui, sans-serif; font-weight:300;
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    padding:3rem 2rem;
+  }
+  main { width:100%; max-width:360px; display:flex; flex-direction:column; align-items:flex-start; }
+  .logo { width:110px; height:auto; margin-bottom:2rem; }
+  h1 { font-weight:500; font-size:clamp(2.4rem, 9vw, 3.2rem); line-height:1.1; }
+  .line { width:40px; height:1px; background:var(--line); margin:1.1rem 0; }
+  .sub { margin-top:.6rem; color:var(--muted); font-size:1rem; letter-spacing:.04em; }
+  .soon { margin-top:3rem; font-size:.78rem; letter-spacing:.3em; text-transform:uppercase; color:var(--text); font-weight:400; }
+  .author { margin-top:.6rem; color:var(--muted); font-size:.9rem; }
+  .contact { margin-top:1.4rem; color:var(--text); font-size:.9rem; text-decoration:none; border-bottom:1px solid var(--line); padding-bottom:2px; transition:color .2s, border-color .2s; }
+  .contact:hover { color:var(--o); border-color:var(--o); }
+  .bar { display:flex; gap:4px; width:100%; height:5px; margin-top:2.2rem; }
+  .bar span { flex:1; border-radius:3px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="logo.svg" alt="Elkaartjes logo">
+  <h1>Elkaartjes</h1>
+  <p class="sub">verbondenheid na verlies</p>
+  <p class="soon">Binnenkort</p>
+  <p class="author">Anna De Vos</p>
+  <a class="contact" href="mailto:anna@elkaartjes.be">Contact</a>
+  <div class="bar" aria-hidden="true">
+    <span style="background:var(--o)"></span>
+    <span style="background:var(--b)"></span>
+    <span style="background:var(--p)"></span>
+  </div>
+</main>
+</body>
+</html>
